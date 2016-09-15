@@ -1,18 +1,15 @@
 def squared_sum(a, b)
   # Q1 CODE HERE
-  (a + b) ** 2
+  return (a + b) ** 2
 end
 
 def sort_array_plus_one(a)
   # Q2 CODE HERE
-  a.sort!.map do |b|
-    b + 1
-  end
+  a.sort().map {|e| e+1}
 end
 
 def combine_name(first_name, last_name)
-  # Q3 CODE HERE
-  "#{first_name} #{last_name}"
+  first_name + " " + last_name
 end
 
 def blockin_time(a)
